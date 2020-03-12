@@ -1,0 +1,40 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+nav {
+  line-height: 250%; }
+  nav .nav-item {
+    margin-left: 60px; }
+  nav .nav-item.active a {
+    color: #c88bca; }
+  nav a {
+    color: #d3c4d3; }
+  nav a:hover, nav a:focus {
+    color: #c88bca; }
+
+.navbar {
+  border-bottom: 1px solid #d3c4d3; }
+
+.main-content h3, .main-content h4 {
+  text-align: center; }
+.main-content h3, .main-content h5 {
+  color: #c88bca; }
+.main-content h4 {
+  color: #d3c4d3; }
+.main-content h5 {
+  line-height: 1.5; }
+
+.center {
+  height: 100px;
+  width: 100px; }
+
+#comparison_table {
+  margin-top: 50px; }
+
+@media (max-width: 600px) {
+  h5 {
+    display: none; } }
+
+/*# sourceMappingURL=custom.css.map */

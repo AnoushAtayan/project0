@@ -1,0 +1,67 @@
+$color1: #c88bca;
+$color2: #d3c4d3;
+
+%custom {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  line-height: 250%;
+
+  .nav-item {
+    margin-left: 60px;
+  }
+
+  .nav-item.active a {
+    color: $color1;
+  }
+
+  a {
+    color: $color2;
+  }
+
+  a:hover, a:focus {
+    color: $color1;
+  }
+
+}
+
+.navbar {
+  border-bottom: 1px solid $color2;
+}
+
+.main-content {
+  h3, h4 {
+    text-align: center;
+  }
+
+  h3, h5 {
+    color: $color1;
+  }
+
+  h4 {
+    color: $color2;
+  }
+
+  h5 {
+    line-height: 1.5;
+  }
+}
+
+.center {
+ @extend %custom;
+  height: 100px;
+  width: 100px;
+}
+
+#comparison_table {
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  h5 {
+    display: none;
+  }
+}
